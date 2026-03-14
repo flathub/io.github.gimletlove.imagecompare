@@ -31,5 +31,5 @@ modules:
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/gimletlove/imagecompare/archive/refs/tags/1.0.2.tar.gz
-        sha256: 0eaddd7da7cbcc70336288ca76d9f12c28797b72e02368b25a819457603e3e68
+        url: https://github.com/gimletlove/imagecompare/archive/refs/tags/1.0.3.tar.gz
+        sha256: 010ef194109968c83c20f64651fb593f07e9cff6e66b5eeb6d13797be36c70d6
