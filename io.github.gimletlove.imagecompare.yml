@@ -32,4 +32,4 @@ modules:
     sources:
       - type: archive
         url: https://github.com/gimletlove/imagecompare/archive/refs/tags/1.0.4.tar.gz
-        sha256: 5961db4971ee37dd4fd5676fae4182fab38f62f3491ce34c8f0155f7a8a13ad4
+        sha256: 95083411381f3aa160f31c5176156372c6d3a5373c19b1ee9c0e6c83df4ea164
