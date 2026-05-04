@@ -24,12 +24,12 @@ modules:
       - -Ddeprecated=false
     sources:
       - type: archive
-        url: https://github.com/libvips/libvips/releases/download/v8.18.1/vips-8.18.1.tar.xz
-        sha256: 3a0d641175013df712a348d5c528e5f0b46fcbfa4b00b30fcf228c631ffee485
+        url: https://github.com/libvips/libvips/releases/download/v8.18.2/vips-8.18.2.tar.xz
+        sha256: a30d4aede16f1c2899c1a2241870f8a7409feafa38484bcdcdac113d6d6f8ff5
 
   - name: imagecompare
     buildsystem: cmake-ninja
     sources:
       - type: archive
-        url: https://github.com/gimletlove/imagecompare/archive/refs/tags/1.0.4.tar.gz
-        sha256: a63d03b3e807a710e1d5ee69041d90fee390b52c11a99fd9b14b2755bde73dcf
+        url: https://github.com/gimletlove/imagecompare/archive/refs/tags/1.1.1.tar.gz
+        sha256: fd5377d4d1d7908d4b88e85063f53f6bcc449a17efafb106ec579ac0d935cbd8
