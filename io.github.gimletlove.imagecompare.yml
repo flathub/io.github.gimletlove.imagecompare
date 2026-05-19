@@ -39,5 +39,5 @@ modules:
       - -DIMAGECOMPARE_FLATPAK=ON
     sources:
       - type: archive
-        url: https://github.com/gimletlove/imagecompare/archive/refs/tags/1.1.2.tar.gz
-        sha256: d912faae472a764ff20e2e2b111bf805b45105f4913692a9a245296cc50f8708
+        url: https://github.com/gimletlove/imagecompare/releases/download/v1.1.3/imagecompare-1.1.3-source.tar.gz
+        sha256: 5824123849fe554469a727e6cac75bd12c9cab21898ceebc400ac1eb308eb6a4
