@@ -1,6 +1,6 @@
 app-id: io.github.gimletlove.imagecompare
 runtime: org.kde.Platform
-runtime-version: "6.10"
+runtime-version: "6.11"
 sdk: org.kde.Sdk
 command: imagecompare
 
@@ -30,8 +30,8 @@ modules:
       - -Dintrospection=disabled
     sources:
       - type: archive
-        url: https://github.com/libvips/libvips/releases/download/v8.18.3/vips-8.18.3.tar.xz
-        sha256: f41285b61bfb495605494f074ca341f7791a1d406e2f157dcea606ef1ae1b146
+        url: https://github.com/libvips/libvips/releases/download/v8.18.4/vips-8.18.4.tar.xz
+        sha256: 2677bad6c422617fd1172d359c16af34e736965d042c214203a87187d26ff037
 
   - name: imagecompare
     buildsystem: cmake-ninja
@@ -39,5 +39,5 @@ modules:
       - -DIMAGECOMPARE_FLATPAK=ON
     sources:
       - type: archive
-        url: https://github.com/gimletlove/imagecompare/releases/download/v1.1.4/imagecompare-1.1.4-source.tar.gz
-        sha256: 6c76d45579fd71dd78498deda6e4bd46f1ba4d2e5bb5ba4fba871b3ec532b2f8
+        url: https://github.com/gimletlove/imagecompare/releases/download/v1.1.5/imagecompare-1.1.5-source.tar.gz
+        sha256: cf82290e21b79075bfc816edb2d68ce10268cfbf2a24b15d3f606bfb25d33807
