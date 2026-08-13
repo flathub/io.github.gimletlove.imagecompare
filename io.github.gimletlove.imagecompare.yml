@@ -16,28 +16,13 @@ cleanup:
   - /lib/pkgconfig
   - /share/gir-1.0
   - /share/man
-  - /bin/vips
-  - /bin/vipsedit
-  - /bin/vipsheader
-  - /bin/vipsthumbnail
-  
-modules:
-  - name: vips
-    buildsystem: meson
-    config-opts:
-      - -Ddeprecated=false
-      - -Dexamples=false
-      - -Dintrospection=disabled
-    sources:
-      - type: archive
-        url: https://github.com/libvips/libvips/releases/download/v8.18.4/vips-8.18.4.tar.xz
-        sha256: 2677bad6c422617fd1172d359c16af34e736965d042c214203a87187d26ff037
 
+modules:
   - name: imagecompare
     buildsystem: cmake-ninja
     config-opts:
       - -DIMAGECOMPARE_FLATPAK=ON
     sources:
       - type: archive
-        url: https://github.com/gimletlove/imagecompare/releases/download/v1.2.1/imagecompare-1.2.1-source.tar.gz
-        sha256: fa5e376402cd02513cdc4a7a8614672e9d0d02d41b012243cee4965028223d4a
+        url: https://github.com/gimletlove/imagecompare/releases/download/v1.3.0/imagecompare-1.3.0-source.tar.gz
+        sha256: d5576488ae5700b59622b65ddee8b83eaad5a086a5c4afb8f54785454f66f79a
